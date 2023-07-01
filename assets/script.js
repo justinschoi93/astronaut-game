@@ -19,7 +19,7 @@ function moveCharacter (e) {
             break;
         case "ArrowDown": 
             positionY+=20;
-            astronaut.style.top = positionX + "px";
+            astronaut.style.top = positionY + "px";
             break;
         case "ArrowRight":
             positionX+=20;
@@ -28,7 +28,7 @@ function moveCharacter (e) {
 
         case "ArrowLeft": 
             positionX-=20;
-            astronaut.style.left-= positionX + "px";
+            astronaut.style.left = positionX + "px";
             break;
 
     }
